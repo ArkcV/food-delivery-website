@@ -1,0 +1,83 @@
+.navbar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 4px;
+  color: #ff6347;
+}
+
+.navbar-logo-icon {
+  font-size: 40px;
+  color: #ff6347;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #49557e;
+  font-size: 16px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-search {
+  font-size: 36px;
+}
+
+.navbar-shopbasket {
+  font-size: 36px;
+}
+
+.navbar button {
+  background-color: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid #ff6347;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #fff4f2;
+}
+
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #49557e;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar-search-icon {
+  position: relative;
+}
+
+.navbar-search-icon .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: #ff6347;
+  border-radius: 5px;
+  top: -6px;
+  right: -6px;
+}
