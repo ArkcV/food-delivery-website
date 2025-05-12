@@ -12,7 +12,7 @@ const Header = () => {
           at a, suscipit rerum dolore assumenda nobis laudantium.
           Exercitationem, odio?
         </p>
-         <button>View Menu</button>
+         <button>Ver Menu</button>
       </div>
     </div>
   );
